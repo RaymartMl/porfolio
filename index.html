@@ -6,19 +6,15 @@
     <title>Raymart Balaguer</title>
     <link
       rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
-      crossorigin="anonymous"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
     />
-    <script
-      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-      crossorigin="anonymous"
-    ></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="css/global.css" />
     <script defer src="js/app.js"></script>
   </head>
-  <body>
+  <body data-spy="scroll" data-target=".navbar" data-offset="50">
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
       <div class="container">
         <a href="#" class="navbar-brand">Raymart Balaguer</a>
@@ -35,7 +31,7 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarContent">
           <ul class="navbar-nav ml-auto">
-            <li class="nav-item active"><a href="#home" class="nav-link">Home</a></li>
+            <li class="nav-item"><a href="#home" class="nav-link">Home</a></li>
             <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
             <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
             <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
@@ -59,12 +55,55 @@
       </section>
 
       <section class="hero hero-2" id="about">
-        <!-- Qualities -->
-        <!-- School  -->
-        <!-- Strand -->
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-md-4">
+              <div class="card shadow">
+                <div class="card-body">
+                  <img src="img/pup.png" alt="PUP Logo" class="card-img-top" />
+                  <h4 class="card-title my-3 text-center">School</h4>
+                  <div class="card-text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus,
+                    magnam maiores consectetur fugit, est neque facere nisi voluptates
+                    dolor, rerum qui harum. Ipsa dolor amet molestiae beatae esse
+                    quibusdam suscipit.
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card shadow-lg card-large">
+                <div class="card-body">
+                  <img src="img/qualitiessvg.svg" alt="Qualities" class="card-img-top" />
+                  <h3 class="card-title my-3 text-center">Qualities</h3>
+                  <div class="card-text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus,
+                    magnam maiores consectetur fugit, est neque facere nisi voluptates
+                    dolor, rerum qui harum. Ipsa dolor amet molestiae beatae esse
+                    quibusdam suscipit.
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card shadow">
+                <div class="card-body">
+                  <img src="img/code.svg" alt="ICT Logo" class="card-img-top" />
+                  <h4 class="card-title my-3 text-center">ICT Strand</h4>
+                  <div class="card-text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus,
+                    magnam maiores consectetur fugit, est neque facere nisi voluptates
+                    dolor, rerum qui harum. Ipsa dolor amet molestiae beatae esse
+                    quibusdam suscipit.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </section>
 
-      <section class="hero hero-3" id="project">
+      <section class="hero hero-3" id="projects">
         <!-- Projects Link github pages and screenshot -->
         <!-- Card -->
       </section>

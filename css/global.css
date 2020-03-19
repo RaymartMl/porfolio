@@ -1,12 +1,9 @@
-main {
-  margin-top: 56px;
-}
-
 .hero {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: bottom;
   height: 100vh;
+  padding: 0 3.5rem;
 }
 
 .center-align {
@@ -25,7 +22,30 @@ main {
 }
 
 .icons > img {
-  width: 75px;
-  height: 75px;
+  width: 4.7rem;
+  height: 4.7rem;
   margin: 0 1rem;
+}
+
+.hero-2 {
+  background: pink;
+}
+
+.hero-2 .row {
+  padding-top: 6rem;
+}
+
+.hero-2 .card {
+  width: 21rem;
+  height: 29rem;
+}
+.hero-2 img {
+  display: block;
+  margin: auto;
+  width: 12.5rem;
+  height: 12.5rem;
+}
+
+.hero-2 .card-large {
+  transform: scale(1.05);
 }
